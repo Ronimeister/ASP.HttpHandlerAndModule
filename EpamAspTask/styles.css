@@ -1,0 +1,26 @@
+﻿body {
+}
+
+div{
+    padding: 0.1%;
+}
+
+.wrapper::after {
+    clear: both;
+}
+
+.left-div {
+    background-color: antiquewhite;
+    width: 33%;
+    float: left;
+}
+.central-div {
+    background-color: aquamarine;
+    width: 33%;
+    float: left;
+}
+.right-div {
+    background-color: bisque;
+    width: 33%;
+    float: left;
+}
